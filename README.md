@@ -9,7 +9,7 @@ There are settings, but it's pretty unpolished and a lot of the names/explanatio
 
 Release v1.0.0 is for beta 1.4.1, I have ADSL at the moment, so testing compatibility with 1.4.0 would be painful, so I have not.
 
-Look at the pictures for the algorithm, but basically with default settings (all values are adjustable):
+Look at the pictures for the algorithm, but basically with default settings (all values are adjustable - note that I'm using MCM, which means you can enter values directly when you press on the number):
 
 Chances to recruit each daily tick are changed to, for Unit Tier 0->Tier 7+: 1 (meaning 100%), 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.025 Meaning Tier 4 has 20% chance each day (vanilla is 10%). For Tiers 7+ (inclusive, which doesn't exist in vanilla), they are all pooled in the same chance with a base chance of 2.5%.
 
@@ -24,3 +24,5 @@ Clan Tier also affects chance loss by dividing the above leadership chance loss 
 TLDR: Charm and Leadership affect chance linearly, charm increases chance, leadership decreases chance loss per successful recruitment. Clan Tier affects chance linearly and chance loss exponentially. Tier 0 will have vanilla behavior except chance applies to each prisoner that hasn't been recruited yet, not just once per stack.
 
 Bug: if you recruit prisoners with CTRL button pressed, the amount of prisoners recruitable from that stack only decreases by 1, this is a vanilla bug that I can't be bothered fixing.
+
+If you get two Mod Options buttons and Exit to Main Menu is hard to press, I recommend going to the Mod Options with MCM UI Impl. 3.1.4 and ticking Use Standard Option Screen which will place those mod optins in ESC>Options>Mod Options. This is because some mods are using MCM 2.0 and I'm using 3.0. MCM's documentation bad in my opinion, so I have no idea what I'm suppose to do to fix that.
