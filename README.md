@@ -5,7 +5,7 @@ Bonjour,
 
 This mod makes prisoner recruitment be affected by clan tier, charm and leadership. Recruitment chances apply to every unit in a stack, not just once per stack.
 
-There are settings, but it's pretty unpolished and a lot of the names/explanation is not exactly helpful. I'm uploading it in this state since Uni is starting and I've very unlikely to update the mod now.
+There are settings, but it's pretty unpolished and a lot of the names/explanation are not exactly helpful. I'm uploading it in this state since Uni is starting and I've very unlikely to improve the mod now.
 
 Release v1.0.0 is for beta 1.4.1, I have ADSL at the moment, so testing compatibility with 1.4.0 would be painful, so I have not.
 
@@ -21,8 +21,8 @@ Leadership affects chance loss by changing the flat 1.0 (100%) reduction from ea
 
 Clan Tier also affects chance loss by dividing the above leadership chance loss by (2^Clan Tier * 0.5) - 0.5; if leadership = 100 and Clan Tier = 4, the final chance loss is 0.0888 (8.88%)
 
-TLDR: Charm and Leadership affect chance linearly, charm increases chance, leadership decreases chance loss per successful recruitment. Clan Tier affects chance linearly and chance loss exponentially. Tier 0 will have vanilla behavior except chance applies to each prisoner that hasn't been recruited yet, not just once per stack.
+TLDR: Charm and Leadership affect chance linearly, charm increases chance, leadership decreases chance loss per successful recruitment. Clan Tier affects chance linearly and chance loss exponentially. Clan Tier 0 will have vanilla behavior except chance applies to each prisoner that hasn't been recruited yet, not just once per stack.
 
 Bug: if you recruit prisoners with CTRL button pressed, the amount of prisoners recruitable from that stack only decreases by 1, this is a vanilla bug that I can't be bothered fixing.
 
-If you get two Mod Options buttons and Exit to Main Menu is hard to press, I recommend going to the Mod Options with MCM UI Impl. 3.1.4 and ticking Use Standard Option Screen which will place those mod optins in ESC>Options>Mod Options. This is because some mods are using MCM 2.0 and I'm using 3.0. MCM's documentation bad in my opinion, so I have no idea what I'm suppose to do to fix that.
+If you get two Mod Options buttons and Exit to Main Menu is hard to press, I recommend going to the Mod Options with MCM UI Impl. 3.1.4 and ticking Use Standard Option Screen which will place those mod options in ESC>Options>Mod Options. This is because some mods are using MCM 2.0 and I'm using 3.0. MCM's documentation is bad compared to Modlib in my opinion and I have no idea what I'm suppose to do to fix that.
