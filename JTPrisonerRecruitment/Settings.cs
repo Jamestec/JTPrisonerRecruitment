@@ -172,7 +172,7 @@ namespace JTPrisonerRecruitment
                 _leadershipBase = value;
             }
         }
-        [SettingPropertyInteger("When leadership stops affecting chance", 0, 1000, "0", Order = 4, RequireRestart = false, HintText = "Recommend Cap < Mult: Cap = Mult means if Leadership level >= mult, you recruit all regardless of chance")]
+        [SettingPropertyInteger("When leadership stops affecting chance", 0, 1000, "0", Order = 4, RequireRestart = false, HintText = "Recommend Cap < Div: Cap = Div means if Leadership level >= mult, you recruit all regardless of chance")]
         [SettingPropertyGroup("Leadership")]
         public int LeadershipCap
         {
@@ -248,7 +248,7 @@ namespace JTPrisonerRecruitment
         }
         #endregion
 
-        // TODO display average excepted recruitment for each tier for the settings chosen
+        // TODO display average expected recruitment for each tier for the settings chosen
         // Will have to use boolean group and update when changes
     }
 }

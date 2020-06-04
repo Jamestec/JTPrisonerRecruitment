@@ -15,7 +15,7 @@ namespace JTPrisonerRecruitment
             gameStarterObject.AddModel(new JTGetDailyRecruitedPrisoners());
             // No idea if this adds onto vanilla
             ((CampaignGameStarter)gameStarterObject).AddBehavior(new JTRecruitPrisonersCampaignBehavior());
-            InformationManager.DisplayMessage(new InformationMessage("JTPrisonerRecruitment unsuccessfully failed to load.", new Color(0, 1, 0)));
+            Logs.log("JTPrisonerRecruitment unsuccessfully failed to load.", new Color(0, 1, 0));
         }
     }
 }
