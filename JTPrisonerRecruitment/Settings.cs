@@ -55,9 +55,17 @@ namespace JTPrisonerRecruitment
         }*/
         #endregion
 
+        [SettingPropertyBool("Apply to each unit", Order = 0, RequireRestart = false, HintText = "Native is false = apply once to each stack of units")]
+        [SettingPropertyGroup("I recommend pressing on the number and typing", GroupOrder = 0)]
+        public bool ApplyEachUnit
+        {
+            get;
+            set;
+        } = true;
+
         #region chance settings
         [SettingPropertyFloatingInteger("Tier 0 base chance", 0f, 10f, "0.###", Order = 0, RequireRestart = false, HintText = "Native is 1.0")]
-        [SettingPropertyGroup("Chances", GroupOrder = 0)]
+        [SettingPropertyGroup("Chances", GroupOrder = 1)]
         public float ChanceTier0
         {
             get => _chances[0];
@@ -140,7 +148,7 @@ namespace JTPrisonerRecruitment
 
         #region charm settings
         [SettingPropertyFloatingInteger("CharmBase chance increase", -10f, 10f, "0.###", Order = 0, RequireRestart = false, HintText = "Recommend to leave at 1")]
-        [SettingPropertyGroup("Charm",GroupOrder = 1)]
+        [SettingPropertyGroup("Charm",GroupOrder = 2)]
         public float CharmBase
         {
             get => _charmBase;
@@ -163,7 +171,7 @@ namespace JTPrisonerRecruitment
 
         #region leadership
         [SettingPropertyFloatingInteger("LeadershipBase chance decrease increase", -10f, 10f, "0.###", Order = 3, RequireRestart = false, HintText = "Recommend to leave at 1: increasing this will decrease your chance")]
-        [SettingPropertyGroup("Leadership", GroupOrder = 2)]
+        [SettingPropertyGroup("Leadership", GroupOrder = 3)]
         public float LeadershipBase
         {
             get => _leadershipBase;
@@ -196,7 +204,7 @@ namespace JTPrisonerRecruitment
 
         #region clan tier
         [SettingPropertyInteger("Chance Clan Tier Modifier", -10, 10, "0", Order = 0, RequireRestart = false, HintText = "Recommend to leave at 1, chance = chance * charmStuff * (ClanTier + ClanTierModifier)")]
-        [SettingPropertyGroup("Clan Tier", GroupOrder = 3)]
+        [SettingPropertyGroup("Clan Tier", GroupOrder = 4)]
         public int CharmClanTierMod
         {
             get => _clanTierChanceIncrease;

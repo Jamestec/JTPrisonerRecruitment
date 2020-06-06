@@ -76,7 +76,14 @@ namespace JTPrisonerRecruitment
 				CharacterObject characterAtIndex = prisonRoster.GetCharacterAtIndex(i);
 				if (IsPrisonerRecruitable(characterAtIndex))
 				{
-					int naughty = prisonRoster.GetElementNumber(i) - GetRecruitableNumberInternal(characterAtIndex);
+					int naughty = 0;
+					if (GlobalSettings<Settings>.Instance.ApplyEachUnit)
+					{
+						naughty = prisonRoster.GetElementNumber(i) - GetRecruitableNumberInternal(characterAtIndex);
+					} else
+                    {
+						naughty = 1;
+                    }
 					if (naughty > 0)
 					{
 						nPrisoners[i] = naughty;
