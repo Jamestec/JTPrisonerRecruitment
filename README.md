@@ -3,7 +3,7 @@
 
 Bonjour,
 
-This mod makes prisoner recruitment be affected by clan tier, charm and leadership. Recruitment chances apply to every unit in a stack, not just once per stack.
+This mod makes prisoner recruitment be affected by clan tier, charm and leadership. Recruitment chances apply to every unit in a stack, not just once per stack (configurable).
 
 There are settings, but it's pretty unpolished and a lot of the names/explanation are not exactly helpful. I'm uploading it in this state since Uni is starting and I've very unlikely to improve the mod now.
 
