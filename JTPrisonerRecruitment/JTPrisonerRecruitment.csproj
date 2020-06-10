@@ -31,17 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MCMv3, Version=3.1.4.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="MCMv3, Version=3.1.6.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\JTPrisonerRecruitment\bin\Win64_Shipping_Client\MCMv3.dll</HintPath>
-    </Reference>
-    <Reference Include="MCMv3.Implementation.v3.1.4, Version=3.1.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\JTPrisonerRecruitment\bin\Win64_Shipping_Client\MCMv3.Implementation.v3.1.4.dll</HintPath>
-    </Reference>
-    <Reference Include="MCMv3.UI.v3.1.4, Version=3.1.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\JTPrisonerRecruitment\bin\Win64_Shipping_Client\MCMv3.UI.v3.1.4.dll</HintPath>
     </Reference>
     <Reference Include="SandBox">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\SandBox\bin\Win64_Shipping_Client\SandBox.dll</HintPath>

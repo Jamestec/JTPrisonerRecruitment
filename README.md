@@ -25,4 +25,4 @@ TLDR: Charm and Leadership affect chance linearly, charm increases chance, leade
 
 Bug: if you recruit prisoners with CTRL button pressed, the amount of prisoners recruitable from that stack only decreases by 1, this is a vanilla bug that I can't be bothered fixing.
 
-If you get two Mod Options buttons and Exit to Main Menu is hard to press, I recommend going to the Mod Options with MCM UI Impl. 3.1.4 and ticking Use Standard Option Screen which will place those mod options in ESC>Options>Mod Options. This is because some mods are using MCM 2.0 and I'm using 3.0. MCM's documentation is bad compared to Modlib in my opinion and I have no idea what I'm suppose to do to fix that.
+If you get two Mod Options buttons and Exit to Main Menu is hard to press, I recommend going to the Mod Options with MCM UI Impl. 3.1.4 and ticking Use Standard Option Screen which will place those mod options in ESC>Options>Mod Options. This is because some mods are using MCM 2.0 and I'm using 3.0. MCM's documentation is bad compared to Modlib in my opinion so I have no idea what I'm suppose to do to fix that.
