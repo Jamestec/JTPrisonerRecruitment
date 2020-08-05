@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\JTPrisonerRecruitment\bin\Win64_Shipping_Client\JTPrisonerRecruitment.dll
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\JTPrisonerRecruitment\bin\Win64_Shipping_Client\JTPrisonerRecruitment.pdb
+C:\Users\JamesTemp\source\repos\JTPrisonerRecruitment\JTPrisonerRecruitment\obj\x64\Debug\JTPrisonerRecruitment.csprojAssemblyReference.cache
+C:\Users\JamesTemp\source\repos\JTPrisonerRecruitment\JTPrisonerRecruitment\obj\x64\Debug\JTPrisonerRecruitment.csproj.CoreCompileInputs.cache
+C:\Users\JamesTemp\source\repos\JTPrisonerRecruitment\JTPrisonerRecruitment\obj\x64\Debug\JTPrisonerRecruitment.dll
+C:\Users\JamesTemp\source\repos\JTPrisonerRecruitment\JTPrisonerRecruitment\obj\x64\Debug\JTPrisonerRecruitment.pdb
