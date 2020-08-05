@@ -7,8 +7,6 @@ This mod makes prisoner recruitment be affected by clan tier, charm and leadersh
 
 There are settings, but it's pretty unpolished and a lot of the names/explanation are not exactly helpful. I'm uploading it in this state since Uni is starting and I've very unlikely to improve the mod now.
 
-Release v1.0.0 is for beta 1.4.1, I have ADSL at the moment, so testing compatibility with 1.4.0 would be painful, so I have not.
-
 Look at the pictures for the algorithm, but basically with default settings (all values are adjustable - note that I'm using MCM, which means you can enter values directly when you press on the number):
 
 Chances to recruit each daily tick are changed to, for Unit Tier 0->Tier 7+: 1 (meaning 100%), 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.025 Meaning Tier 4 has 20% chance each day (vanilla is 10%). For Tiers 7+ (inclusive, which doesn't exist in vanilla), they are all pooled in the same chance with a base chance of 2.5%.
